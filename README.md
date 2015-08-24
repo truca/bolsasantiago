@@ -26,4 +26,4 @@ http-server results
 para comenzar el crontab,
 node crontab.js
 para ejecutar el scrappeo
-casperjs scrapping.js
+casperjs scrapping.js 42

@@ -31,7 +31,7 @@ var loadContent = function(dis, index, maxIndex){
 			funCierreBursatil.getPaginaCierreBursatil(i);	
 		}, {i: index});
 
-		dis.wait(3000, function(){
+		dis.wait(4000, function(){
 			var str = "";
 			str = addRows(dis, str, index);
 			writeDoc(str, 'a');
